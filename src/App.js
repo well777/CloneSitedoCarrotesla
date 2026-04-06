@@ -5,7 +5,11 @@ import Footer from './Componentes/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-
+<BrowserRouter basename="/CloneSitedoCarrotesla">
+   <Routes>
+      <Route path="/" element={<Home />} />
+   </Routes>
+</BrowserRouter>
 function App() {
   return (
     <div className="App">
